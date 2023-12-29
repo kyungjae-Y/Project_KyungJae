@@ -66,7 +66,9 @@ public class LoginScr extends JFrame {
 						loginScr.setVisible(false);
 					}
 				} else {
-					System.out.println("로그인 실패 : 아이디를 다시 입력하세요!");
+					int result = JOptionPane.showConfirmDialog(null, "로그인 실패", "안내메세지", JOptionPane.OK_OPTION);
+					if (result == JOptionPane.OK_OPTION)
+						return;
 				}
 			}
 		});

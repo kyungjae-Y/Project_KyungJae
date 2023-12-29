@@ -112,7 +112,7 @@ public class MapleApp extends JFrame implements Initable {
 
 	@Override
 	public void setting() {
-		setTitle("메이플 테스트");
+		setTitle("메이플 스토리");
 		setSize(1290, 759);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setLocationRelativeTo(null);
